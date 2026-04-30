@@ -2498,7 +2498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Shooter
   shootPoint: {fileID: 149323658}
   target: {fileID: 458535351}
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 4249382397923960934, guid: e8c76b08a3933524492db55707c3a6ba, type: 3}
 --- !u!61 &1875622634
 BoxCollider2D:
   m_ObjectHideFlags: 0

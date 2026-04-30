@@ -39,6 +39,6 @@ public class Shooter : MonoBehaviour
     Vector2 CalculateProjectileVelocity(Vector2 origin,Vector2 target,float time)
     {
         Vector2 direction = target - origin;
-        return new Vector2(direction.x / time, direction.y / time + 05f * Mathf.Abs(Physics2D.gravity.y) * time);
+        return new Vector2(direction.x / time, direction.y / time + 0.5f * Mathf.Abs(Physics2D.gravity.y) * time);
     }
 }
